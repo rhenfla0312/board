@@ -1,0 +1,221 @@
+/* 글로벌 */
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* 전체 */
+.board_read {
+  width: 60%;
+  margin: auto;
+}
+
+
+.read_header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.read_section {
+  position: relative;
+  width: 30%;
+  margin: auto;
+}
+
+.read_user {
+  margin-bottom: 20px;
+}
+
+.read_user > label {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color:gray;
+  padding: 5px;
+  border-bottom: 2px solid gray;
+}
+
+.read_user > p {
+  padding: 5px;
+}
+
+
+
+.read_name {
+  margin-bottom: 20px;
+}
+
+.read_name > label {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color:gray;
+  padding: 5px;
+  border-bottom: 2px solid gray;
+}
+
+.read_name > p {
+  padding: 5px;
+}
+
+.read_text {
+  margin-bottom: 20px;
+}
+
+.read_text > label {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color:gray;
+  padding: 5px;
+  border-bottom: 2px solid gray;
+}
+
+
+.read_text > p {
+  padding: 5px;
+}
+
+.read_file {
+  position: relative;
+}
+
+.read_file > label {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color:gray;
+  padding: 5px;
+  border-bottom: 2px solid gray;
+}
+
+.read_file > p {
+  padding: 5px;
+}
+
+.read_file .file_btn {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  background: #546e7a;
+  color: #fff;
+}
+
+
+
+
+.read_button {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+
+.read_button > button {
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  background: #546e7a;
+  color: #fff;
+}
+
+.read_button > button:hover {
+  color: #546e7a;
+  background: #fff;
+}
+
+
+
+.comment_name {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: gray;
+  padding: 5px;
+  border-bottom: 2px solid gray;
+}
+
+.comment_insert {
+  position: absolute;
+  bottom: -140px;
+  left: 0;
+}
+
+.comment_pw {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid gray;
+  width: 200px;
+  height: 18px;
+}
+
+.comment_text {
+  outline: none;
+  border: 1px solid gray;
+  font-size: 16px;
+  width: 100%;
+}
+
+.comment_btn {
+  position: absolute;
+  right: -5px;
+  top: 120px;
+  width: 100px;
+  height: 30px;
+  background-color: gray;
+  color: #fff;
+}
+
+.comment_btn:hover {
+  opacity: .8;
+}
+
+.comment_back {
+  position: absolute;
+  right: 100px;
+  top: 120px;
+  width: 100px;
+  height: 30px;
+  background-color: gray;
+  color: #fff;
+}
+
+.comment_back:hover {
+  opacity: .8;
+}
+
+.comment_hide {
+  display: none;
+}
+
+
+
+.comment_go {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  width: 100px;
+  height: 30px;
+  background-color: gray;
+  color: #fff;
+}
+
+.comment_go:hover {
+  opacity: .8;
+}
+
+.comment_menu {
+  font-size: 17px;
+  padding: 10px 5px;
+  border-bottom: 2px solid gray;
+}

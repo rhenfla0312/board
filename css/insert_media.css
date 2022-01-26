@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+	.board_read {
+    width: 100%;
+    margin: auto;
+	}
+}

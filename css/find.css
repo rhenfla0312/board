@@ -1,0 +1,20 @@
+.find {
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 170px;
+  margin: auto;
+}
+
+.regster {
+  height: 600px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.input_id {
+  margin-bottom: 20px;
+}

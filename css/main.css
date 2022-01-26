@@ -1,0 +1,177 @@
+/* 글로벌 */
+body {
+  background-color: #fff
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 전체 */
+.board {
+  width: 60%;
+  margin: auto;
+}
+
+/* header */
+.header {
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+}
+
+
+.loding {
+  position: absolute;
+  right: 180px;
+  top: 103px;
+  border: 2px solid #000;
+  width: 25px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pick_form {
+	display: flex;
+	position: absolute;
+	right: 230px;
+	top: 103px;
+	/* border: 1px solid gray; */
+	border-radius: 5px;
+}
+
+.pick_select {
+	outline: none;
+	border: none;
+	width: 63px;
+	height: 25px;
+	text-align: center;
+	border-radius: 2px;
+	background-color: gray;
+	color: #000;
+	font-weight: bold;	
+  margin-top: .1px;
+}
+
+
+
+.pick_text {
+  margin-top: 1px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.text {
+	width: 200px;
+	height: 19px;
+  outline: none;
+  font-size: 16px;
+  border: 2px solid gray;
+}
+
+.pick_seach > button {
+	width: 60px;
+	height: 26px;
+	background-color: gray;
+	outline: none;
+	/* border: none; */
+	color: #000;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.pick_seach > button:hover {
+	background-color: #fff;
+	color: gray;
+}
+
+
+
+.logout {
+  position: absolute;
+  right: 175px;
+  top: 0;
+}
+
+.total_count {
+	position:absolute;
+	left: 172px;
+	top: 90px;
+	font-size: 14px;
+}
+
+
+.section {
+  position: relative;
+}
+
+/* section */
+.table {
+  width: 70%;
+  margin: auto;
+}
+
+.table > thead {
+  background: gray;
+  opacity: .8;
+}
+
+.table > thead > tr > th {
+  border-bottom: 2px solid gray;
+}
+
+.table > tbody > tr > td {
+  border-bottom: 2px solid gray;
+}
+
+.table > tbody > tr > td {
+	text-align: center;
+}
+
+/* page */
+.pageing {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page {
+  margin-left: 10px;
+  border: 1px solid gray;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+/* footer */
+.footer {
+  position: absolute;
+  /* bottom: 0; */
+  right: 173px;
+  margin-top: 10px;
+}
+
+.footer > button {
+  width: 100px;
+  height: 30px;
+  background: #546e7a;
+  color: #fff;
+}
+
+.footer > button:hover {
+  color: #546e7a;
+  background: #fff;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
+}

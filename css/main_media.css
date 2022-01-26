@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+  .table {
+		width: 110%;
+		margin: auto;
+	}
+	.footer {
+    position: absolute;
+    /* bottom: 0; */
+    right: 68px;
+    margin-top: 10px;
+	}
+	.pick_form {
+		display: none;
+	}
+	.total_count {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    font-size: 14px;
+	}
+	.loding {
+    position: absolute;
+    right: 0;
+	}
+	.logout {
+    position: absolute;
+    right: -65px;
+    top: 0;
+	}
+}

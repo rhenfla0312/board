@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+  body {
+    height: 100vh;
+  }
+  
+  .find {
+    display: block;
+    top: 50px;
+    /* left: -40px; */
+    left: -30px;
+    height: 100vh;
+
+  }
+  .board_id_find {
+    margin-bottom: 30px;
+  }
+  .regster {
+    width: 100%;
+  }
+}
